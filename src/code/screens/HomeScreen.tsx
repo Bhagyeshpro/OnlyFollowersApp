@@ -7,7 +7,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.app}>
       <Pressable style={styles.button} onPress={() => navigation.navigate("NewPost")}>
-        <Text style={styles.buttonText}>NEW POST</Text>
+        <Text style={styles.buttonText}>BACKEND</Text>
       </Pressable>
       <FlatList
         data={users}
